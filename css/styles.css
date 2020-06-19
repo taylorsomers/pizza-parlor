@@ -2,6 +2,10 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+footer {
+  text-align: center;
+}
+
 hr {
   border-top: 2px solid white;
 }
@@ -24,6 +28,12 @@ hr {
   background-color: lightcoral;
 }
 
+#jumbotron-logo {
+  float: left;
+  height: 70px;
+  margin-right: 20px;
+}
+
 #nav-space {
   margin: 15px;
 }
@@ -34,5 +44,10 @@ hr {
 }
 
 #price-quote {
+  margin-bottom: 15px;
   margin-top: 15px;
+}
+
+#title {
+  font-size: 80px;
 }
