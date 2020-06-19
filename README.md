@@ -35,10 +35,8 @@
   |---|---|---|
   | Program will create a pizza order that includes the property "size". | "let pizzaOrder = new PizzaOrder() > pizzaOrder" | "undefined > PizzaOrder {size: undefined}" |
   | Program will change the size of the pizza depending on the size option chosen by the user. | "Small > Submit; Large > Submit" | "Alert: small; Alert: large" |
-  | Program will create a  pizza order that includes toppings chosen by the user. |  |  |
-  | Program will update the pizza order each time the size of the pizza is changed by the user. |  |  |
-  | Program will update the pizza order each time a topping is added by the user. |  |  |
-  | Program will update the pizza order each time a topping is subtracted by the user. |  |  |
+  | Program will create a  pizza order that includes toppings chosen by the user. | "Sauce: Check > Submit; Sauce: Check, Cheese: Check > Submit" | "Alert: sauce; Alert: sauce,cheese" |
+  | Program will update the pizza order each time a topping is subtracted by the user. | "Sauce: Check, Cheese: Check > Submit; Sauce: Check, Cheese: Uncheck > Submit" | "Alert: sauce,cheese; Alert: sauce" |
   | Program will calculate a price for the pizza order based on the pizza size chosen by the user. |  |  |
   | Program will calculate a price for the pizza order based on both the pizza size and the toppings chosen by the user. |  |  |
   |  |  |  |

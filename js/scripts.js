@@ -1,15 +1,15 @@
 // Business Logic:
 
-function PizzaOrder(size) {
+function PizzaOrder(size, toppings) {
   this.size = size;
+  this.toppings = toppings;
 }
 
-PizzaOrder.prototype.changeSize = function(inputtedSize) {
-  if (inputtedSize == large) {
-    this.size = large;
-  } else {
-    this.size = small;
+PizzaOrder.prototype.price = function(price) {
+  if (this.size === "large") {
+    price += 2;
   }
+  return price;
 }
 
 // End Business Logic
@@ -20,9 +20,14 @@ $(document).ready(function() {
   $("button#submit-details").click(function(event) {
     event.preventDefault();
     let inputtedSize = $("select#size").val();
-    let pizzaOrder = new PizzaOrder(inputtedSize);
-    alert(pizzaOrder.size);
-    // alert(inputtedSize);
+    let toppings = [];
+    $("input:checkbox[name=toppings]:checked").each(function() {
+      let topping = $(this).val();
+      (toppings).push(topping);
+    });
+    let pizzaOrder = new PizzaOrder(inputtedSize, toppings);
+    let orderPrice = pizzaOrder.price(3);
+    alert(pizzaOrder.toppings);
   });
 });
 
