@@ -9,6 +9,8 @@ PizzaOrder.prototype.price = function(price) {
   if (this.size === "large") {
     price += 2;
   }
+  let toppingTotal = (this.toppings).length;
+  price += toppingTotal;
   return price;
 }
 
