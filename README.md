@@ -4,11 +4,14 @@
 
 ## Description
 
-  [Description of program functionality & intent presented as an elevator pitch]
+  This website simulates a pizza parlor's site that would take order information from a customer and calculate the price of a pizza based on the size and toppings selected. It was created to exercise the knowledge I have acquired from Epicodus this week regarding the construction and manipulation of objects in JavaScript. It also demonstrates elements I learned in previous weeks at Epicodus, most importantly the use of looping. Not only is the webpage fully functional and bug-free at this point, it is styled in a more sophisticated way than previous website constructions I have undertaken, demonstrating the increasing proficiency I have cultivated with HTML, CSS, and Bootstrap.
 
 ## Languages & Technologies Used:
 
   ### Programming Languages & Libraries
+  * Bootstrap
+  * CSS
+  * HTML
   * JavaScript
   * jQuery
   * Markdown

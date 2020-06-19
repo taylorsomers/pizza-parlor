@@ -34,8 +34,13 @@ hr {
   margin-right: 20px;
 }
 
+#nav-logo {
+  height: 38px;
+  margin-left: 5px;
+}
+
 #nav-space {
-  margin: 15px;
+  margin: 11px;
 }
 
 #price {
