@@ -1,6 +1,6 @@
-# [Program Title]
+# Pizza Parlor
 
-  ### By [Author(s)]
+  ### By Taylor Somers
 
 ## Description
 
@@ -9,15 +9,18 @@
 ## Languages & Technologies Used:
 
   ### Programming Languages & Libraries
-  * [Unordered List]
+  * Markdown
 
   ### Operating Systems & Programs
-  * [Unordered List]
+  * Brave
+  * Git Bash
+  * Microsoft Windows 10
+  * Visual Studio Code
 
 ## Installation
 
   1. Download a web browser, such as Apple Safari, Brave, Google Chrome, Microsoft Edge, Mozilla Firefox, or Yandex.
-  2. Navigate to [repository].
+  2. Navigate to https://github.com/taylorsomers/pizza-parlor.
   3. Click the green "Clone or download" button at the right of the screen.
   4. Select "Download ZIP."
   5. Use a file extractor or unzip program (such as PeaZip, Unzipper, WinZip, Zipware, or 7-ZIP) to extract the ZIP files onto your computer.
@@ -28,9 +31,13 @@
 
   | Program Behavior | Example Behavior | Example Output |
   |---|---|---|
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
+  | Program will create a pizza order that includes one of several sizes available to choose by the user. |  |  |
+  | Program will create a  pizza order that includes toppings chosen by the user. |  |  |
+  | Program will update the pizza order each time the size of the pizza is changed by the user. |  |  |
+  | Program will update the pizza order each time a topping is added by the user. |  |  |
+  | Program will update the pizza order each time a topping is subtracted by the user. |  |  |
+  | Program will calculate a price for the pizza order based on the pizza size chosen by the user. |  |  |
+  | Program will calculate a price for the pizza order based on both the pizza size and the toppings chosen by the user. |  |  |
   |  |  |  |
   |  |  |  |
   |  |  |  |
@@ -49,7 +56,7 @@
 
 ### Contributors
 
-  * [Contributor(s): Anyone who contributed at least %5 of the total product.]
+  * Taylor Somers
 
 ### License
 
