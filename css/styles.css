@@ -23,3 +23,16 @@ hr {
 #home-button {
   background-color: lightcoral;
 }
+
+#nav-space {
+  margin: 15px;
+}
+
+#price {
+  background-color: white;
+  color: black;
+}
+
+#price-quote {
+  margin-top: 15px;
+}

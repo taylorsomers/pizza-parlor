@@ -35,7 +35,8 @@ $(document).ready(function() {
     });
     let pizzaOrder = new PizzaOrder(inputtedSize, toppings);
     let orderPrice = pizzaOrder.price(3);
-    alert(orderPrice);
+    $("#price-insert").html("$" + orderPrice);
+    // alert(orderPrice);
   });
 });
 

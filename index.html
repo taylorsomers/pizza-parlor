@@ -12,7 +12,9 @@
   <body>
     <nav class="navbar navbar-light" style="background-color: teal;">
       <form class="form-inline">
-        <button href="index.html" class="btn btn-outline-light" type="button">Wise Owl's Pizza Home</button>
+        <img src="img/owl-logo.png" height="37" alt="logo in the shape of an abstract owl">
+        <span id="nav-space"></span>
+        <button href="index.html" class="btn btn-outline-light" type="button">Home</button>
       </form>
     </nav>
     <div class="container">
@@ -38,48 +40,91 @@
                     <option value="extra-large">Extra-Large</option>
                   </select>
                 </div>
+                <br>
                 <hr class="menu-line">
+                <br>
                 <div class="form-group">
                   <h3>Choose Pizza Sauce</h3>
                   <div>
-                    <input id="sauce" type="checkbox" name="toppings" value="red-sauce">
-                    <label for="sauce">Red Sauce</label>
+                    <input class="sauce" type="checkbox" name="toppings" value="red-sauce">
+                    <label class="sauce">Red Sauce</label>
                   </div>
                   <div>
-                    <input id="cheese" type="checkbox" name="toppings" value="white-sauce">
-                    <label for="cheese">White Sauce</label>
+                    <input class="sauce" type="checkbox" name="toppings" value="white-sauce">
+                    <label class="sauce">White Sauce</label>
                   </div>
+                  <br>
+                  <hr class="menu-line">
                   <br>
                   <h3>Choose Pizza Cheese:</h3>
                   <div>
-                    <input id="cheese" type="checkbox" name="toppings" value="bleu">
+                    <input class="cheese" type="checkbox" name="toppings" value="bleu">
                     <label for="cheese">Bleu Cheese</label>
                   </div>
                   <div>
-                    <input id="cheese" type="checkbox" name="toppings" value="blue-stilton">
+                    <input class="cheese" type="checkbox" name="toppings" value="blue-stilton">
                     <label for="cheese">Blue Stilton</label>
                   </div>
                   <div>
-                    <input id="cheese" type="checkbox" name="toppings" value="cheddar-goblin">
+                    <input class="cheese" type="checkbox" name="toppings" value="cheddar-goblin">
                     <label for="cheese">Cheddar Goblin</label>
                   </div>
                   <div>
-                    <input id="cheese" type="checkbox" name="toppings" value="mozarella">
+                    <input class="cheese" type="checkbox" name="toppings" value="mozarella">
                     <label for="cheese">Mozarella</label>
                   </div>
                   <br>
+                  <hr class="menu-line">
+                  <br>
                   <h3>Choose Pizza Toppings:</h3>
-                  <div>
-                    <input id="cheese" type="checkbox" name="toppings" value="bacon">
-                    <label for="cheese">Bacon</label>
-                  </div>
-                  <div>
-                    <input id="cheese" type="checkbox" name="toppings" value="pepperoni">
-                    <label for="cheese">Pepperoni</label>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div>
+                        <input class="topping" type="checkbox" name="toppings" value="anchovies">
+                        <label for="topping">Anchovies</label>
+                      </div>
+                      <div>
+                        <input class="topping" type="checkbox" name="toppings" value="artichoke">
+                        <label for="topping">Artichoke</label>
+                      </div>
+                      <div>
+                        <input class="topping" type="checkbox" name="toppings" value="bacon">
+                        <label for="topping">Bacon</label>
+                      </div>
+                      <div>
+                        <input class="topping" type="checkbox" name="toppings" value="italian-sausage">
+                        <label for="topping">Italian Sausage</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div>
+                        <input class="topping" type="checkbox" name="toppings" value="pepperoni">
+                        <label for="topping">Pepperoni</label>
+                      </div>
+                      <div>
+                        <input class="topping" type="checkbox" name="toppings" value="spinach">
+                        <label for="spinach">Spinach</label>
+                      </div>
+                      <div>
+                        <input class="topping" type="checkbox" name="toppings" value="sun-dried-tomatoes">
+                        <label for="spinach">Sun-Dried Tomatoes</label>
+                      </div>
+                      <div>
+                        <input class="topping" type="checkbox" name="toppings" value="truffles">
+                        <label for="topping">Truffles</label>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <button id="submit-details" class="btn btn-outline-light" type="button">Calculate Order</button>
               </form>
+            </div>
+            <div class="col-md-6">
+              <div id="price" class="card">
+                <div class="container">
+                  <h1 id="price-quote">Your Pizza Is: <span id="price-insert"></span></h1>
+                </div>
+              </div>
             </div>
           </div>
         </div>
