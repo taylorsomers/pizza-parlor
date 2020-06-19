@@ -31,7 +31,7 @@
 
   | Program Behavior | Example Behavior | Example Output |
   |---|---|---|
-  | Program will create a pizza order that includes one of several sizes available to choose by the user. |  |  |
+  | Program will create a pizza order that includes the property "size". | "let pizzaOrder = new PizzaOrder() > pizzaOrder" | "undefined > PizzaOrder {size: undefined}" |
   | Program will create a  pizza order that includes toppings chosen by the user. |  |  |
   | Program will update the pizza order each time the size of the pizza is changed by the user. |  |  |
   | Program will update the pizza order each time a topping is added by the user. |  |  |
