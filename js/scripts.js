@@ -27,7 +27,7 @@ $(document).ready(function() {
     });
     let pizzaOrder = new PizzaOrder(inputtedSize, toppings);
     let orderPrice = pizzaOrder.price(3);
-    alert(pizzaOrder.toppings);
+    alert(orderPrice);
   });
 });
 
