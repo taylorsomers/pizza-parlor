@@ -9,6 +9,8 @@
 ## Languages & Technologies Used:
 
   ### Programming Languages & Libraries
+  * JavaScript
+  * jQuery
   * Markdown
 
   ### Operating Systems & Programs
@@ -32,6 +34,7 @@
   | Program Behavior | Example Behavior | Example Output |
   |---|---|---|
   | Program will create a pizza order that includes the property "size". | "let pizzaOrder = new PizzaOrder() > pizzaOrder" | "undefined > PizzaOrder {size: undefined}" |
+  | Program will change the size of the pizza depending on the size option chosen by the user. | "Small > Submit; Large > Submit" | "Alert: small; Alert: large" |
   | Program will create a  pizza order that includes toppings chosen by the user. |  |  |
   | Program will update the pizza order each time the size of the pizza is changed by the user. |  |  |
   | Program will update the pizza order each time a topping is added by the user. |  |  |

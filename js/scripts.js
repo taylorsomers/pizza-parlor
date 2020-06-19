@@ -4,8 +4,8 @@ function PizzaOrder(size) {
   this.size = size;
 }
 
-PizzaOrder.prototype.selectSize = function(inputtedSize) {
-  if (inputtedSize === large) {
+PizzaOrder.prototype.changeSize = function(inputtedSize) {
+  if (inputtedSize == large) {
     this.size = large;
   } else {
     this.size = small;
@@ -17,7 +17,13 @@ PizzaOrder.prototype.selectSize = function(inputtedSize) {
 // UI Logic:
 
 $(document).ready(function() {
-  let pizzaOrder = new PizzaOrder(small);
+  $("button#submit-details").click(function(event) {
+    event.preventDefault();
+    let inputtedSize = $("select#size").val();
+    let pizzaOrder = new PizzaOrder(inputtedSize);
+    alert(pizzaOrder.size);
+    // alert(inputtedSize);
+  });
 });
 
 // End UI Logic
