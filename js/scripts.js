@@ -7,7 +7,9 @@ function PizzaOrder(size, toppings) {
 
 PizzaOrder.prototype.price = function(price) {
   if (this.size === "large") {
-    price += 2;
+    price += 4;
+  } else if (this.size === "small") {
+    price += 2
   }
   let toppingTotal = (this.toppings).length;
   price += toppingTotal;

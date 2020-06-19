@@ -1,0 +1,16 @@
+hr {
+  border-top: 2px solid white;
+}
+
+.card {
+  background-color: lightcoral;
+}
+
+.jumbotron {
+  background-color: lightcoral;
+  color: white;
+}
+
+#home-button {
+  background-color: lightcoral;
+}

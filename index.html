@@ -6,21 +6,41 @@
     <title>Pizza Parlor</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
   </head>
   <body>
-    <form id="order-details">
-      <select id="size">
-        <option value="small">Small</option>
-        <option value="large">Large</option>
-      </select>
-      <div class="form-group">
-        <input type="checkbox" name="toppings" value="sauce">Sauce<br>
-        <input type="checkbox" name="toppings" value="cheese">Cheese<br>
+    <nav class="navbar navbar-light" style="background-color: lightcoral;">
+      <form class="form-inline">
+        <button class="btn btn-outline-light" type="button">Wise Owl's Pizza Home</button>
+      </form>
+    </nav>
+    <div class="container">
+      <br>
+      <div class="jumbotron">
+        <h1>Wise Owl's Pizza</h1>
+        <hr>
+        <p>Fresh and Nice Pizza Disks</p>
       </div>
-      <label for="submit-details">Calculate Order</label>
-      <button id="submit-details" type="submit">Submit</button>
-    </form>
+      <div class="card">
+        <div class="container">
+          <br>
+          <form id="order-details">
+            <select id="size">
+              <option value="personal">Personal</option>
+              <option value="small">Small</option>
+              <option value="large">Large</option>
+            </select>
+            <div class="form-group">
+              <input type="checkbox" name="toppings" value="sauce">Sauce<br>
+              <input type="checkbox" name="toppings" value="cheese">Cheese<br>
+            </div>
+            <button id="submit-details" class="btn btn-outline-light" type="button">Submit</button>
+            <label for="submit-details">Calculate Order</label>
+          </form>
+          <br>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
