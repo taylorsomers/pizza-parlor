@@ -1,14 +1,23 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
 hr {
   border-top: 2px solid white;
 }
 
 .card {
   background-color: lightcoral;
+  color: white;
 }
 
 .jumbotron {
   background-color: lightcoral;
   color: white;
+}
+
+.menu-line {
+  border-top: 1px solid white;
 }
 
 #home-button {

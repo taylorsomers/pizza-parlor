@@ -10,9 +10,9 @@
     <script type="text/javascript" src="js/scripts.js"></script>
   </head>
   <body>
-    <nav class="navbar navbar-light" style="background-color: lightcoral;">
+    <nav class="navbar navbar-light" style="background-color: teal;">
       <form class="form-inline">
-        <button class="btn btn-outline-light" type="button">Wise Owl's Pizza Home</button>
+        <button href="index.html" class="btn btn-outline-light" type="button">Wise Owl's Pizza Home</button>
       </form>
     </nav>
     <div class="container">
@@ -20,27 +20,72 @@
       <div class="jumbotron">
         <h1>Wise Owl's Pizza</h1>
         <hr>
-        <p>Fresh and Nice Pizza Disks</p>
+        <p>Fresh & Nice Pizza Disks</p>
       </div>
       <div class="card">
+        <br>
         <div class="container">
-          <br>
-          <form id="order-details">
-            <select id="size">
-              <option value="personal">Personal</option>
-              <option value="small">Small</option>
-              <option value="large">Large</option>
-            </select>
-            <div class="form-group">
-              <input type="checkbox" name="toppings" value="sauce">Sauce<br>
-              <input type="checkbox" name="toppings" value="cheese">Cheese<br>
+          <div class="row">
+            <div class="col-md-6">
+              <form id="order-details">
+                <div class="form-group">
+                  <h3>Choose Pizza Size:</h3>
+                  <select id="size">
+                    <option value="personal">Personal</option>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                    <option value="extra-large">Extra-Large</option>
+                  </select>
+                </div>
+                <hr class="menu-line">
+                <div class="form-group">
+                  <h3>Choose Pizza Sauce</h3>
+                  <div>
+                    <input id="sauce" type="checkbox" name="toppings" value="red-sauce">
+                    <label for="sauce">Red Sauce</label>
+                  </div>
+                  <div>
+                    <input id="cheese" type="checkbox" name="toppings" value="white-sauce">
+                    <label for="cheese">White Sauce</label>
+                  </div>
+                  <br>
+                  <h3>Choose Pizza Cheese:</h3>
+                  <div>
+                    <input id="cheese" type="checkbox" name="toppings" value="bleu">
+                    <label for="cheese">Bleu Cheese</label>
+                  </div>
+                  <div>
+                    <input id="cheese" type="checkbox" name="toppings" value="blue-stilton">
+                    <label for="cheese">Blue Stilton</label>
+                  </div>
+                  <div>
+                    <input id="cheese" type="checkbox" name="toppings" value="cheddar-goblin">
+                    <label for="cheese">Cheddar Goblin</label>
+                  </div>
+                  <div>
+                    <input id="cheese" type="checkbox" name="toppings" value="mozarella">
+                    <label for="cheese">Mozarella</label>
+                  </div>
+                  <br>
+                  <h3>Choose Pizza Toppings:</h3>
+                  <div>
+                    <input id="cheese" type="checkbox" name="toppings" value="bacon">
+                    <label for="cheese">Bacon</label>
+                  </div>
+                  <div>
+                    <input id="cheese" type="checkbox" name="toppings" value="pepperoni">
+                    <label for="cheese">Pepperoni</label>
+                  </div>
+                </div>
+                <button id="submit-details" class="btn btn-outline-light" type="button">Calculate Order</button>
+              </form>
             </div>
-            <button id="submit-details" class="btn btn-outline-light" type="button">Submit</button>
-            <label for="submit-details">Calculate Order</label>
-          </form>
-          <br>
+          </div>
         </div>
+        <br>
       </div>
+      <br>
     </div>
   </body>
 </html>
