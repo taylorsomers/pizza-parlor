@@ -15,8 +15,50 @@ PizzaOrder.prototype.price = function(price) {
   } else if (this.size === "small") {
     price += 1;
   }
-  let toppingTotal = (this.toppings).length;
-  price += toppingTotal;
+  if ((this.toppings).includes("red-sauce")) {
+    price += 1;
+  }
+  if ((this.toppings).includes("white-sauce")) {
+    price += 1;
+  }
+  if ((this.toppings).includes("bleu")) {
+    price += 2;
+  }
+  if ((this.toppings).includes("blue-stilton")) {
+    price += 5;
+  }
+  if ((this.toppings).includes("cheddar-goblin")) {
+    price += 1;
+  }
+  if ((this.toppings).includes("mozarella")) {
+    price += 1;
+  }
+  if ((this.toppings).includes("anchovies")) {
+    price += 1;
+  }
+  if ((this.toppings).includes("artichoke")) {
+    price += 1;
+  }
+  if ((this.toppings).includes("bacon")) {
+    price += 2;
+  }
+  if ((this.toppings).includes("italian-sausage")) {
+    price += 2;
+  }
+  if ((this.toppings).includes("pepperoni")) {
+    price += 2;
+  }
+  if ((this.toppings).includes("spinach")) {
+    price += 1;
+  }
+  if ((this.toppings).includes("sun-dried-tomatoes")) {
+    price += 1;
+  }
+  if ((this.toppings).includes("truffles")) {
+    price += 5;
+  }
+  // let toppingTotal = (this.toppings).length;
+  // price += toppingTotal;
   return price;
 }
 
