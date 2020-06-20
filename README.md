@@ -42,17 +42,6 @@
   | Program will update the pizza order each time a topping is subtracted by the user. | "Sauce: Check, Cheese: Check > Submit; Sauce: Check, Cheese: Uncheck > Submit" | "Alert: sauce,cheese; Alert: sauce" |
   | Program will calculate a price for the pizza order based on the pizza size chosen by the user. | "Small > Submit; Large > Submit" | "Alert: 3; Alert: 5" |
   | Program will calculate a price for the pizza order based on both the pizza size and the toppings chosen by the user. | "Size: Small, Sauce: Check > Submit; Size: Small, Sauce: Check, Cheese: Check > Submit" | "Alert: 4; Alert: 5" |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
 
 ## Known Bugs
 
